@@ -1,14 +1,15 @@
 import React from 'react'
-import form from './Form/form'
-import UserContext from './context'
-
+// import UserContext from './context/UserContext';
+import Form from './Form/form';
+import Props from './Props/props'
 
 export const App = () => {
   return (
     <div>
-         <form/>
-          <context/>
+         <Form/>
+        <Props/>
+        <props name = "sabiah"  age = "23"  food = "jollof " color = "brown"  isFemale = {true}/>
     </div>
   )
 }
-export default form
+export default App;

@@ -1,19 +1,22 @@
-import { createContext, useState} from "react"
+// import { createContext, useState} from "react"
 
-const UserProvider = createContext = () => {
+// const UserProvider = createContext = () => {
 
-    const[userData,setUserData] = useState ({
-        firstName:'',
-        email:'',
-        passWord:'',
+//     const[userData,setUserData] = useState ({
+//         firstName:'',
+//         email:'',
+//         passWord:'',
 
-    });
-    return (
-    <div>
-        <UserContext.Provider value={{userData}}> {
-            props.children}
+//     });
+//     return (
+//     <div>
+//         <UserContext.Provider value={{userData}}> {
+//             props.children}
 
-            </UserContext.Provider>
-    </div>
-    );
-};
+//             </UserContext.Provider>
+//     </div>
+//     );
+// };
+
+
+// export default UserContext

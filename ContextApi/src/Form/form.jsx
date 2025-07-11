@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 
-const form = () => {
+const Form = () => {
   const [userDetails, setUserDetails] = useState ({
     firstName:"",
     lastNmae:"",
@@ -22,6 +22,8 @@ const form = () => {
      
     <div className='flex-1/2 justify-items-center'>
         <div >
+             <form>
+
               <h3>Firstname</h3>
               <input onChange={handleFormUpdate} type="text" placeholder='enter your name'/>
                <h3>Lastname</h3>
@@ -29,9 +31,10 @@ const form = () => {
                <h3>email</h3>
                <input onChange={handleFormUpdate} type="text"placeholder='@gmail.com' />
                <h3>Phone Number</h3>
-               <input onChange={handleFormUpdate} type="text" placeholder='+234...' />
+              <input onChange={handleFormUpdate} type="text" placeholder='+234...' />
                <h3>Password</h3>
                <input onChange={handleFormUpdate} type="text" placeholder='*****' />
+               </form>
         </div>
         
         
@@ -43,4 +46,4 @@ const form = () => {
   )
 }
 
-export default form
+export default Form
