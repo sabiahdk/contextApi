@@ -9,7 +9,7 @@ export const App = () => {
     <div>
          <Form/>
         <Props/>
-        <props name = "sabiah"  age = "23"  food = "jollof " color = "brown"  occupation = "techy"/>
+        <Props name = "sabiah"  age = "23"  food = "jollof " color = "brown"  occupation = "techy"/>
     </div>
   )
 }
